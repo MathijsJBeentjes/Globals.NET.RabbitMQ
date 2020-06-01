@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <AssemblyVersion>1.0.0.4</AssemblyVersion>
+    <FileVersion>1.0.0.4</FileVersion>
+    <Version>1.0.4</Version>
+    <Description>A .NET Standard implementation of the Globals Design Pattern in RabbitMQ.
+See http://BeentjesSoftware.nl/Globals/GlobalsDesignPattern.pdf
+Examples: http://beentjessoftware.nl/globals/Globals.NET.RabbitMQ.Examples.zip
+Source: http://beentjessoftware.nl/globals/Globals.NET.RabbitMQ.zip</Description>
+    <Copyright>© Beentjes Software B.V. 2020</Copyright>
+    <PackageTags>RabbitMQ; Globals; Communication</PackageTags>
+    <Authors>Mathijs Beentjes</Authors>
+    <Company>Beentjes Software B.V.</Company>
+	<Title>A RabbitMQ Implementation of the Globals Communication Pattern</Title>
+    <Summary>
+      The Globals Communication Pattern defines named communication objects, enforcing the rule:
+      If the names (and type) are the same, then the data is the same.
+      Assigning a value to a named communication object should be enough to send its value.
+      Declaring that same named communication object should be enough to receive its value.
+    </Summary>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>First version of the first implementation of the Globals Design Pattern</PackageReleaseNotes>
+    <NeutralLanguage>en-GB</NeutralLanguage>
+    <PackageLicenseFile>Licence.txt</PackageLicenseFile>
+    <PackageIcon>Globals.png</PackageIcon>
+    <RepositoryUrl>https://www.nuget.org/packages/Globals.NET.RabbitMQ/1.0.4</RepositoryUrl>
+    <PackageProjectUrl>https://www.nuget.org/packages/Globals.NET.RabbitMQ/1.0.3</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="RabbitMQ.Client" Version="5.1.2" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Globals.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\Licence.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
