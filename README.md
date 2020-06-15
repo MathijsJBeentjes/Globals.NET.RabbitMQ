@@ -3,7 +3,9 @@
 
 The [Globals Communication Pattern](http://beentjessoftware.nl/globals/globalsdesignpattern.pdf) describes a way to make communication between systems death simple, hiding away all technical details.
 
-This package contains a .NET & RabbitMQ implementation of this pattern.
+This package contains a .NET & RabbitMQ implementation of this pattern.  
+
+For the examples, click [here](https://github.com/MathijsJBeentjes/Globals.NET.RabbitMQ.Examples)
 
 Working (C#): On the sending side, you declare a Global of a certain type and name.
 
@@ -247,9 +249,9 @@ namespace Receiver
 
 ## Resources
 
-* [Theortetical background Globals Communication Pattern](http://beentjessoftware.nl/globals/globalsdesignpattern.pdf)
-* [Source Code](http://beentjessoftware.nl/globals/Globals.NET.RabbitMQ.zip)
-* [Examples](http://beentjessoftware.nl/globals/Globals.NET.RabbitMQ.Examples.zip)
+* [Theoretical background Globals Communication Pattern](http://beentjessoftware.nl/globals/globalsdesignpattern.pdf)
+* [Source Code](https://github.com/MathijsJBeentjes/Globals.NET.RabbitMQ)
+* [Examples](https://github.com/MathijsJBeentjes/Globals.NET.RabbitMQ.Examples)
 
 ## Author
 

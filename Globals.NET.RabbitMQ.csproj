@@ -3,15 +3,15 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <AssemblyVersion>1.0.0.4</AssemblyVersion>
-    <FileVersion>1.0.0.4</FileVersion>
-    <Version>1.0.4</Version>
+    <AssemblyVersion>1.0.0.5</AssemblyVersion>
+    <FileVersion>1.0.0.5</FileVersion>
+    <Version>1.0.5</Version>
     <Description>A .NET Standard implementation of the Globals Design Pattern in RabbitMQ.
 See http://BeentjesSoftware.nl/Globals/GlobalsDesignPattern.pdf
-Examples: http://beentjessoftware.nl/globals/Globals.NET.RabbitMQ.Examples.zip
-Source: http://beentjessoftware.nl/globals/Globals.NET.RabbitMQ.zip</Description>
+Examples: https://github.com/MathijsJBeentjes/Globals.NET.RabbitMQ.Examples
+Source: https://github.com/MathijsJBeentjes/Globals.NET.RabbitMQ</Description>
     <Copyright>© Beentjes Software B.V. 2020</Copyright>
-    <PackageTags>RabbitMQ; Globals; Communication</PackageTags>
+    <PackageTags>RabbitMQ; Globals; Communication; csharp; dotnet</PackageTags>
     <Authors>Mathijs Beentjes</Authors>
     <Company>Beentjes Software B.V.</Company>
 	<Title>A RabbitMQ Implementation of the Globals Communication Pattern</Title>
@@ -26,8 +26,9 @@ Source: http://beentjessoftware.nl/globals/Globals.NET.RabbitMQ.zip</Description
     <NeutralLanguage>en-GB</NeutralLanguage>
     <PackageLicenseFile>Licence.txt</PackageLicenseFile>
     <PackageIcon>Globals.png</PackageIcon>
-    <RepositoryUrl>https://www.nuget.org/packages/Globals.NET.RabbitMQ/1.0.4</RepositoryUrl>
-    <PackageProjectUrl>https://www.nuget.org/packages/Globals.NET.RabbitMQ/1.0.3</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MathijsJBeentjes/Globals.NET.RabbitMQ</RepositoryUrl>
+    <PackageProjectUrl>https://www.nuget.org/packages/Globals.NET.RabbitMQ/1.0.5</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
