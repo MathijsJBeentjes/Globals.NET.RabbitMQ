@@ -255,7 +255,7 @@ namespace Receiver
 
 ## Author
 
-* **[Mathijs Beentjes](www.linkedin.com/in/mathijs-beentjes-mjb)** 
+* **[Mathijs Beentjes](http://www.linkedin.com/in/mathijs-beentjes-mjb)** 
 
 
 ## License
