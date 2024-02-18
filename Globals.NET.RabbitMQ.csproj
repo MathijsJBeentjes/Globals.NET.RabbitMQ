@@ -43,10 +43,6 @@ Source: https://github.com/MathijsJBeentjes/Globals.NET.RabbitMQ</Description>
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
-    <None Update="Licence.txt">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
     <None Update="README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
