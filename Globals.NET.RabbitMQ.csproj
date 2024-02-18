@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <AssemblyVersion>1.0.0.7</AssemblyVersion>
+    <FileVersion>1.0.0.7</FileVersion>
+    <Version>1.0.7</Version>
+    <Description>A .NET Standard implementation of the Globals Design Pattern in RabbitMQ.
+See https://www.beentjessoftware.nl/globals-design-pattern
+Examples: https://github.com/MathijsJBeentjes/Globals.NET.RabbitMQ.Examples
+Source: https://github.com/MathijsJBeentjes/Globals.NET.RabbitMQ</Description>
+    <Copyright>© Beentjes Software B.V. 2023</Copyright>
+    <PackageTags>RabbitMQ; Globals; Communication; csharp; dotnet</PackageTags>
+    <Authors>Mathijs Beentjes</Authors>
+    <Company>Beentjes Software B.V.</Company>
+	<Title>A RabbitMQ Implementation of the Globals Communication Pattern</Title>
+    <Summary>
+      The Globals Communication Pattern defines named communication objects, enforcing the rule:
+      If the names (and type) are the same, then the data is the same.
+      Assigning a value to a named communication object should be enough to send its value.
+      Declaring that same named communication object should be enough to receive its value.
+    </Summary>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>An implementation of the Globals Design Pattern</PackageReleaseNotes>
+    <NeutralLanguage>en-GB</NeutralLanguage>
+    <PackageLicenseFile>Licence.txt</PackageLicenseFile>
+    <PackageIcon>Globals.png</PackageIcon>
+    <RepositoryUrl>https://github.com/MathijsJBeentjes/Globals.NET.RabbitMQ</RepositoryUrl>
+    <PackageProjectUrl>https://www.nuget.org/packages/Globals.NET.RabbitMQ/1.0.7</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RabbitMQ.Client" Version="6.8.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0" />
+    <PackageReference Include="System.Text.Json" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Globals.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Update="Licence.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
