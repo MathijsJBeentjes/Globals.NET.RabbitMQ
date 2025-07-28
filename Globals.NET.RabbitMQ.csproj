@@ -35,7 +35,7 @@ Source: https://github.com/MathijsJBeentjes/Globals.NET.RabbitMQ</Description>
   <ItemGroup>
     <PackageReference Include="RabbitMQ.Client" Version="6.8.0" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0" />
-    <PackageReference Include="System.Text.Json" Version="8.0.0" />
+    <PackageReference Include="System.Text.Json" Version="8.0.5" />
   </ItemGroup>
 
   <ItemGroup>
